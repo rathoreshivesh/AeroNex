@@ -54,31 +54,32 @@ struct profile: View {
                           }
                           
                           VStack{
-                              
-                              HStack{
-                                  Image("ic-clock")
-                                      .frame(width: 18, height: 18)
-                                  NavigationLink("Booking History"){
-                                     // bookings()
-                                      //  .navigationBarBackButtonHidden(true)
-                                   // .navigationBarItems(leading: btnBack)
-                                  }
-                                  .font(
-                                    Font.custom("SF Pro", size: 17)
-                                        .weight(.semibold)
-                                  )
-                                  .lineSpacing(22)
-                                  .multilineTextAlignment(.leading)
-                                  .foregroundColor(Color(red: 0.1, green: 0.11, blue: 0.12))
-                                  
-                                  .padding(10)
-                                  
-                                  Spacer()
-                                  
-                                  Image("line2")
-                                      .frame(width: 17, height: 7)
-                                      .multilineTextAlignment(.trailing)
-                              }
+                              NavigationLink(destination:bookings()){
+                                  HStack{
+                                      Image("ic-clock")
+                                          .frame(width: 18, height: 18)
+                                      
+                                      // bookings()
+                                      // .navigationBarBackButtonHidden(true)
+                                      // .navigationBarItems(leading: btnBack)
+                                      
+                                      Text("Booking History")
+                                          .font(
+                                            Font.custom("SF Pro", size: 17)
+                                                .weight(.semibold)
+                                          )
+                                          .lineSpacing(22)
+                                          .multilineTextAlignment(.leading)
+                                          .foregroundColor(Color(red: 0.1, green: 0.11, blue: 0.12))
+                                      
+                                          .padding(10)
+                                      
+                                      Spacer()
+                                      
+                                      Image("line2")
+                                          .frame(width: 17, height: 7)
+                                          .multilineTextAlignment(.trailing)
+                                  }.navigationBarBackButtonHidden(true)}
                               .padding(.horizontal,30)
                               Rectangle()
                                   .foregroundColor(.clear)

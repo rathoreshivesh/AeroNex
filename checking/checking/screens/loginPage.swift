@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct loginPage: View {
+    @State private var userName : String = ""
+    @State private var password : String = ""
+    
+    
     var body: some View {
         VStack{
             ZStack(alignment: .leading){
@@ -51,7 +55,15 @@ struct loginPage: View {
                           .frame(width: 2, height: 28)
                           .background(Color(red: 0.87, green: 0.87, blue: 0.87))
                         
-                    }.offset(x:-140)
+                        TextField("Enter your Email", text: $userName)
+                            .font(
+                                Font.custom("SF Pro", size: 13)
+                                    .weight(.semibold)
+                            )
+                            .foregroundColor(Color(red: 0.24, green: 0.24, blue: 0.26).opacity(0.6))
+                            .frame(width: 260, alignment: .leading)
+                        
+                    }
                 }
             }
             
@@ -75,7 +87,7 @@ struct loginPage: View {
                                 .stroke(Color(red: 0.5, green: 0.48, blue: 0.48).opacity(0.14), lineWidth: 1.51991)
                         )
                     HStack{
-                        Group{
+                        
                             Image("ic-key")
                                 .frame(width: 18, height: 18)
                             
@@ -83,11 +95,18 @@ struct loginPage: View {
                                 .foregroundColor(.clear)
                                 .frame(width: 2, height: 28)
                                 .background(Color(red: 0.87, green: 0.87, blue: 0.87))
+                            SecureField("Enter your Password", text: $password)
+                                .font(
+                                    Font.custom("SF Pro", size: 13)
+                                        .weight(.semibold)
+                                )
+                                .foregroundColor(Color(red: 0.24, green: 0.24, blue: 0.26).opacity(0.6))
+                                .frame(width: 240, alignment: .leading)
                             
-                        }.offset(x:-130)
-                        Image("ic-eye")
-                        .frame(width: 18, height: 14.4)
-                        .offset(x:120)
+                        
+                            Image("ic-eye")
+                            .frame(width: 18, height: 14.4)
+                        
                     }
                     
                 }

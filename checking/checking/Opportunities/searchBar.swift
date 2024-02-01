@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct searchBar: View {
+    @State private var searchText: String = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -22,14 +23,13 @@ struct searchBar: View {
                     .frame(width: 25, height: 25)
                     .aspectRatio(contentMode: .fill)
                 
-                Text("Search by Project Name or Location")
+                TextField("Search by Project Name", text: $searchText)
                     .font(
                         Font.custom("SF Pro", size: 13)
                             .weight(.semibold)
                     )
-                
                     .foregroundColor(Color(red: 0.24, green: 0.24, blue: 0.26).opacity(0.6))
-                    .frame(width: 260,alignment: .leading)
+                    .frame(width: 260, alignment: .leading)
                 
                 Image("ic-mic")
                     .frame(width: 25, height: 25)

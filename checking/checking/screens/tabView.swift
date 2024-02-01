@@ -15,7 +15,7 @@ struct tabView: View {
                     Image("ic-home")
                     Text("home")
                 }
-            InvitationView()
+            pilotSelection()
                 .tabItem{
                     Image("ic-pilot")
                     Text("Pilot")

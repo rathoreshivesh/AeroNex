@@ -254,7 +254,7 @@ struct mainHomePage: View {
                         .frame(width: 346, height: 76, alignment: .topLeading)
                 }.padding(.top,10)
                 
-                tabView()
+                
             }.ignoresSafeArea(.all,edges:.bottom)
         }
     }

@@ -11,7 +11,7 @@ struct done: View {
     var body: some View {
         Spacer()
         VStack(alignment: .center, spacing: 0) {
-            Image("Frame")
+            Image("ic-done")
             .frame(width: 68, height: 68)
             Text("Done")
               .font(Font.custom("SF Pro", size: 16))
