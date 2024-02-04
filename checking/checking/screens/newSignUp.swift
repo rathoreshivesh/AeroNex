@@ -12,6 +12,8 @@ struct newSignUp: View {
         
         ScrollView{
             
+            
+            Group{
                 ZStack(alignment: .leading){
                     Image("aero")
                         .frame(alignment: .center)
@@ -23,6 +25,8 @@ struct newSignUp: View {
                     }
                     .padding(.leading, 20)
                 }.padding(.top)
+            }
+            VStack{
                 
                 VStack(alignment: .leading){
                     Text("Username")
@@ -178,7 +182,8 @@ struct newSignUp: View {
                             .foregroundColor(.white)
                     ).padding(.top)
                 
-            }
+            }.offset(y:-120)
+        }
         
         
     }

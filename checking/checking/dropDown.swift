@@ -26,13 +26,9 @@ struct dropDown: View {
                     
                 )
             
-            HStack{
-                Text("\(selectedSlot)")
-                    .font(Font.custom("SF Pro", size: 16))
-                    .foregroundColor(.black)
-                Spacer()
+            
                 
-                    Picker("Select an option", selection: $selectedSlot) {
+                    Picker("", selection: $selectedSlot) {
                         ForEach(0..<slot.count) {          index in
                                        Text(self.slot[index]).tag(index)
                                    }
@@ -41,7 +37,7 @@ struct dropDown: View {
                                .foregroundColor(.black)
                                .padding()
                 
-            }.padding(.horizontal,40)
+           
             
             
             

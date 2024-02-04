@@ -35,7 +35,10 @@
 		BD4193B82B47FA8100A77F50 /* done.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4193B72B47FA8100A77F50 /* done.swift */; };
 		BD4193BA2B47FF6A00A77F50 /* doneSuccesfully.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4193B92B47FF6A00A77F50 /* doneSuccesfully.swift */; };
 		BD4193BC2B48010100A77F50 /* PlotBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4193BB2B48010100A77F50 /* PlotBooking.swift */; };
-		BDAE30D42B68EC4F00AFC5E1 /* firstFirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE30D32B68EC4E00AFC5E1 /* firstFirstPage.swift */; };
+		BD8AA77B2B6ED07F00F0411E /* newHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA77A2B6ED07F00F0411E /* newHomePage.swift */; };
+		BD8AA77E2B6F587A00F0411E /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = BD8AA77D2B6F587A00F0411E /* FLAnimatedImage */; };
+		BD8AA7842B6F830500F0411E /* homePagePilotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA7832B6F830400F0411E /* homePagePilotCard.swift */; };
+		BD8AA7862B6FBB7A00F0411E /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA7852B6FBB7A00F0411E /* VideoPlayerView.swift */; };
 		BDAE30DA2B690BE000AFC5E1 /* dropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE30D92B690BE000AFC5E1 /* dropDown.swift */; };
 		BDAE30DC2B6AAE6000AFC5E1 /* pilotBookingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE30DB2B6AAE6000AFC5E1 /* pilotBookingCard.swift */; };
 		BDAE49312B485C5C00FD671A /* ConfirmPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE49302B485C5B00FD671A /* ConfirmPlot.swift */; };
@@ -81,7 +84,9 @@
 		BD4193B72B47FA8100A77F50 /* done.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = done.swift; sourceTree = "<group>"; };
 		BD4193B92B47FF6A00A77F50 /* doneSuccesfully.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doneSuccesfully.swift; sourceTree = "<group>"; };
 		BD4193BB2B48010100A77F50 /* PlotBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotBooking.swift; sourceTree = "<group>"; };
-		BDAE30D32B68EC4E00AFC5E1 /* firstFirstPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = firstFirstPage.swift; path = ../../../../Downloads/firstFirstPage.swift; sourceTree = "<group>"; };
+		BD8AA77A2B6ED07F00F0411E /* newHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newHomePage.swift; sourceTree = "<group>"; };
+		BD8AA7832B6F830400F0411E /* homePagePilotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePagePilotCard.swift; sourceTree = "<group>"; };
+		BD8AA7852B6FBB7A00F0411E /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		BDAE30D92B690BE000AFC5E1 /* dropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropDown.swift; sourceTree = "<group>"; };
 		BDAE30DB2B6AAE6000AFC5E1 /* pilotBookingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotBookingCard.swift; sourceTree = "<group>"; };
 		BDAE49302B485C5B00FD671A /* ConfirmPlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPlot.swift; sourceTree = "<group>"; };
@@ -104,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8AA77E2B6F587A00F0411E /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +119,7 @@
 		BD0930792B668ECB00CA5F96 /* homePage */ = {
 			isa = PBXGroup;
 			children = (
+				BD8AA7832B6F830400F0411E /* homePagePilotCard.swift */,
 				BD09307A2B668F0700CA5F96 /* latestShotCard.swift */,
 				BD09307E2B668FED00CA5F96 /* news.swift */,
 			);
@@ -122,6 +129,8 @@
 		BD402CCE2B66596500C1FDA2 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				BDAE30DD2B6AC86900AFC5E1 /* Opportunities */,
+				BDAE30DE2B6B8CC300AFC5E1 /* Bookings */,
 				BD0930962B68107A00CA5F96 /* whoView.swift */,
 				BDAE30DB2B6AAE6000AFC5E1 /* pilotBookingCard.swift */,
 				BD0930982B68128300CA5F96 /* aeroImg.swift */,
@@ -137,8 +146,8 @@
 		BD402CCF2B66596E00C1FDA2 /* screens */ = {
 			isa = PBXGroup;
 			children = (
-				BDAE30D32B68EC4E00AFC5E1 /* firstFirstPage.swift */,
 				BD0930A82B68AF6500CA5F96 /* loginPage.swift */,
+				BD8AA77A2B6ED07F00F0411E /* newHomePage.swift */,
 				BDAE493E2B4B329000FD671A /* pilotSelection.swift */,
 				BDAE49362B492B1E00FD671A /* homePage.swift */,
 				BDAE493C2B49D59F00FD671A /* mainHomePage.swift */,
@@ -180,7 +189,7 @@
 			path = Opportunities;
 			sourceTree = "<group>";
 		};
-		BDAE30DE2B6B8CC300AFC5E1 /* bBookings */ = {
+		BDAE30DE2B6B8CC300AFC5E1 /* Bookings */ = {
 			isa = PBXGroup;
 			children = (
 				BD0930902B66E32F00CA5F96 /* bookingCard3.swift */,
@@ -188,7 +197,7 @@
 				BD09308C2B66E07A00CA5F96 /* bookingCard.swift */,
 				BD09308E2B66E1B400CA5F96 /* bookingCard2.swift */,
 			);
-			path = bBookings;
+			path = Bookings;
 			sourceTree = "<group>";
 		};
 		BDCAD62B2B3158BC00943700 = {
@@ -214,10 +223,9 @@
 				BD402CCE2B66596500C1FDA2 /* components */,
 				BDCAD6392B3158BC00943700 /* ContentView.swift */,
 				BDCAD6372B3158BC00943700 /* checkingApp.swift */,
+				BD8AA7852B6FBB7A00F0411E /* VideoPlayerView.swift */,
 				BDAE49342B49232C00FD671A /* tabBar.swift */,
 				BDAE30D92B690BE000AFC5E1 /* dropDown.swift */,
-				BDAE30DE2B6B8CC300AFC5E1 /* bBookings */,
-				BDAE30DD2B6AC86900AFC5E1 /* Opportunities */,
 				BDCAD63B2B3158BF00943700 /* Assets.xcassets */,
 				BDCAD63D2B3158BF00943700 /* Preview Content */,
 			);
@@ -248,6 +256,9 @@
 			dependencies = (
 			);
 			name = checking;
+			packageProductDependencies = (
+				BD8AA77D2B6F587A00F0411E /* FLAnimatedImage */,
+			);
 			productName = checking;
 			productReference = BDCAD6342B3158BC00943700 /* checking.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +287,9 @@
 				Base,
 			);
 			mainGroup = BDCAD62B2B3158BC00943700;
+			packageReferences = (
+				BD8AA77C2B6F587A00F0411E /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = BDCAD6352B3158BC00943700 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -316,6 +330,7 @@
 				BD4193BA2B47FF6A00A77F50 /* doneSuccesfully.swift in Sources */,
 				BD0930A72B68AA5D00CA5F96 /* jobsCard2.swift in Sources */,
 				BD0930812B66936800CA5F96 /* calendarView.swift in Sources */,
+				BD8AA77B2B6ED07F00F0411E /* newHomePage.swift in Sources */,
 				BDCAD6382B3158BC00943700 /* checkingApp.swift in Sources */,
 				BD4193BC2B48010100A77F50 /* PlotBooking.swift in Sources */,
 				BD09308F2B66E1B400CA5F96 /* bookingCard2.swift in Sources */,
@@ -327,10 +342,12 @@
 				BD0930A92B68AF6500CA5F96 /* loginPage.swift in Sources */,
 				BD09308B2B66D96C00CA5F96 /* searchBarBookings.swift in Sources */,
 				BD0930A12B682D2100CA5F96 /* profile.swift in Sources */,
+				BD8AA7842B6F830500F0411E /* homePagePilotCard.swift in Sources */,
 				BD09307B2B668F0700CA5F96 /* latestShotCard.swift in Sources */,
 				BD0930972B68107A00CA5F96 /* whoView.swift in Sources */,
 				BD4193B82B47FA8100A77F50 /* done.swift in Sources */,
 				BD0930872B66CF3D00CA5F96 /* invitationCard2.swift in Sources */,
+				BD8AA7862B6FBB7A00F0411E /* VideoPlayerView.swift in Sources */,
 				BD09308D2B66E07A00CA5F96 /* bookingCard.swift in Sources */,
 				BDAE49392B49A02F00FD671A /* jobsView.swift in Sources */,
 				BD402CD22B6659A300C1FDA2 /* LandmarkCard.swift in Sources */,
@@ -342,7 +359,6 @@
 				BD1844CD2B53E36D00702B8A /* loginOrSignUp.swift in Sources */,
 				BDAE493D2B49D59F00FD671A /* mainHomePage.swift in Sources */,
 				BDAE30DA2B690BE000AFC5E1 /* dropDown.swift in Sources */,
-				BDAE30D42B68EC4F00AFC5E1 /* firstFirstPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +562,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD8AA77C2B6F587A00F0411E /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD8AA77D2B6F587A00F0411E /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD8AA77C2B6F587A00F0411E /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDCAD62C2B3158BC00943700 /* Project object */;
 }
