@@ -31,7 +31,7 @@ struct newHomePage: View {
                             .foregroundColor(.clear)
                             .frame(width: 360, height: 204)
                             .overlay(
-                                VideoPlayerView(videoFileName: "vVideo", videoFileExtension: "mp4", alpha: 0.3)
+                                VideoPlayerView(videoFileName: "video", videoFileExtension: "mp4", alpha: 0.5)
                             )
                         
                             .cornerRadius(4)
@@ -107,13 +107,21 @@ struct newHomePage: View {
                         homePagePilotCard()
                     }
                     
-                    VStack(spacing:20){
-                        Text("Recommended by your location").font(.system(size: 16, weight: .medium)).tracking(1).multilineTextAlignment(.center)
+                        VStack(spacing:20){
+                            Text("Recommended by your location").font(.system(size: 16, weight: .medium)).tracking(1).multilineTextAlignment(.center)
+                            
+                            ScrollView(.horizontal, showsIndicators: false) {
+                            HStack{
+                                                                    
+                                   homePagePilotCard()
+                                    
+                                    homePagePilotCard()
+                            }.padding(.leading)
+                            }
+                        }
                         
-                       homePagePilotCard()
-                        
-                        homePagePilotCard()
-                    }
+                     
+                    
                     
                     
                     Spacer()
