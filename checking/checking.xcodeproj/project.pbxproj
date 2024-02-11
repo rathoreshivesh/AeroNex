@@ -37,23 +37,20 @@
 		BD4193BC2B48010100A77F50 /* PlotBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4193BB2B48010100A77F50 /* PlotBooking.swift */; };
 		BD788F572B76ABEC002517C5 /* writeReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD788F562B76ABEC002517C5 /* writeReview.swift */; };
 		BD8AA77B2B6ED07F00F0411E /* newHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA77A2B6ED07F00F0411E /* newHomePage.swift */; };
-		BD8AA77E2B6F587A00F0411E /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = BD8AA77D2B6F587A00F0411E /* FLAnimatedImage */; };
 		BD8AA7842B6F830500F0411E /* homePagePilotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA7832B6F830400F0411E /* homePagePilotCard.swift */; };
 		BD8AA7862B6FBB7A00F0411E /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA7852B6FBB7A00F0411E /* VideoPlayerView.swift */; };
-		BDAE30DA2B690BE000AFC5E1 /* dropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE30D92B690BE000AFC5E1 /* dropDown.swift */; };
 		BDAE30DC2B6AAE6000AFC5E1 /* pilotBookingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE30DB2B6AAE6000AFC5E1 /* pilotBookingCard.swift */; };
 		BDAE49312B485C5C00FD671A /* ConfirmPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE49302B485C5B00FD671A /* ConfirmPlot.swift */; };
-		BDAE49332B4892E700FD671A /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE49322B4892E700FD671A /* signUp.swift */; };
-		BDAE49352B49232C00FD671A /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE49342B49232C00FD671A /* tabBar.swift */; };
 		BDAE49372B492B1E00FD671A /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE49362B492B1E00FD671A /* homePage.swift */; };
 		BDAE49392B49A02F00FD671A /* jobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE49382B49A02E00FD671A /* jobsView.swift */; };
 		BDAE493B2B49C37100FD671A /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE493A2B49C37100FD671A /* InvitationView.swift */; };
-		BDAE493D2B49D59F00FD671A /* mainHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE493C2B49D59F00FD671A /* mainHomePage.swift */; };
 		BDAE493F2B4B329000FD671A /* pilotSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE493E2B4B329000FD671A /* pilotSelection.swift */; };
 		BDCAD6382B3158BC00943700 /* checkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD6372B3158BC00943700 /* checkingApp.swift */; };
 		BDCAD63A2B3158BC00943700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCAD6392B3158BC00943700 /* ContentView.swift */; };
 		BDCAD63C2B3158BF00943700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCAD63B2B3158BF00943700 /* Assets.xcassets */; };
 		BDCAD63F2B3158BF00943700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCAD63E2B3158BF00943700 /* Preview Assets.xcassets */; };
+		BDE5A2682B7950C60054F152 /* ratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5A2672B7950C60054F152 /* ratingView.swift */; };
+		BDE5A26A2B7960400054F152 /* pilotReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5A2692B7960400054F152 /* pilotReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,21 +86,19 @@
 		BD8AA77A2B6ED07F00F0411E /* newHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newHomePage.swift; sourceTree = "<group>"; };
 		BD8AA7832B6F830400F0411E /* homePagePilotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePagePilotCard.swift; sourceTree = "<group>"; };
 		BD8AA7852B6FBB7A00F0411E /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
-		BDAE30D92B690BE000AFC5E1 /* dropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropDown.swift; sourceTree = "<group>"; };
 		BDAE30DB2B6AAE6000AFC5E1 /* pilotBookingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotBookingCard.swift; sourceTree = "<group>"; };
 		BDAE49302B485C5B00FD671A /* ConfirmPlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPlot.swift; sourceTree = "<group>"; };
-		BDAE49322B4892E700FD671A /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
-		BDAE49342B49232C00FD671A /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
 		BDAE49362B492B1E00FD671A /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		BDAE49382B49A02E00FD671A /* jobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsView.swift; sourceTree = "<group>"; };
 		BDAE493A2B49C37100FD671A /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
-		BDAE493C2B49D59F00FD671A /* mainHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainHomePage.swift; sourceTree = "<group>"; };
 		BDAE493E2B4B329000FD671A /* pilotSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotSelection.swift; sourceTree = "<group>"; };
 		BDCAD6342B3158BC00943700 /* checking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCAD6372B3158BC00943700 /* checkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkingApp.swift; sourceTree = "<group>"; };
 		BDCAD6392B3158BC00943700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDCAD63B2B3158BF00943700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDCAD63E2B3158BF00943700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDE5A2672B7950C60054F152 /* ratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratingView.swift; sourceTree = "<group>"; };
+		BDE5A2692B7960400054F152 /* pilotReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD8AA77E2B6F587A00F0411E /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +127,6 @@
 			children = (
 				BDAE30DD2B6AC86900AFC5E1 /* Opportunities */,
 				BDAE30DE2B6B8CC300AFC5E1 /* Bookings */,
-				BD0930962B68107A00CA5F96 /* whoView.swift */,
 				BDAE30DB2B6AAE6000AFC5E1 /* pilotBookingCard.swift */,
 				BD0930982B68128300CA5F96 /* aeroImg.swift */,
 				BD09309C2B6819C900CA5F96 /* detailsCard.swift */,
@@ -151,22 +144,23 @@
 				BD0930A82B68AF6500CA5F96 /* loginPage.swift */,
 				BD8AA77A2B6ED07F00F0411E /* newHomePage.swift */,
 				BDAE493E2B4B329000FD671A /* pilotSelection.swift */,
-				BDAE49362B492B1E00FD671A /* homePage.swift */,
-				BDAE493C2B49D59F00FD671A /* mainHomePage.swift */,
 				BD1844CC2B53E36D00702B8A /* loginOrSignUp.swift */,
-				BDAE49322B4892E700FD671A /* signUp.swift */,
+				BDE5A2692B7960400054F152 /* pilotReview.swift */,
+				BD788F562B76ABEC002517C5 /* writeReview.swift */,
 				BDAE49382B49A02E00FD671A /* jobsView.swift */,
 				BD4193B72B47FA8100A77F50 /* done.swift */,
 				BD4193BB2B48010100A77F50 /* PlotBooking.swift */,
 				BD0930A02B682D2100CA5F96 /* profile.swift */,
 				BDAE49302B485C5B00FD671A /* ConfirmPlot.swift */,
+				BDAE49362B492B1E00FD671A /* homePage.swift */,
 				BD0930882B66D80F00CA5F96 /* bookings.swift */,
 				BDAE493A2B49C37100FD671A /* InvitationView.swift */,
-				BD788F562B76ABEC002517C5 /* writeReview.swift */,
+				BD0930962B68107A00CA5F96 /* whoView.swift */,
 				BD0930A22B68377300CA5F96 /* bookingDetails.swift */,
 				BD0930AC2B68BA3900CA5F96 /* newSignUp.swift */,
 				BD4193B92B47FF6A00A77F50 /* doneSuccesfully.swift */,
 				BD402CD32B6675DD00C1FDA2 /* tabView.swift */,
+				BDE5A2672B7950C60054F152 /* ratingView.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -227,8 +221,6 @@
 				BDCAD6392B3158BC00943700 /* ContentView.swift */,
 				BDCAD6372B3158BC00943700 /* checkingApp.swift */,
 				BD8AA7852B6FBB7A00F0411E /* VideoPlayerView.swift */,
-				BDAE49342B49232C00FD671A /* tabBar.swift */,
-				BDAE30D92B690BE000AFC5E1 /* dropDown.swift */,
 				BDCAD63B2B3158BF00943700 /* Assets.xcassets */,
 				BDCAD63D2B3158BF00943700 /* Preview Content */,
 			);
@@ -260,7 +252,6 @@
 			);
 			name = checking;
 			packageProductDependencies = (
-				BD8AA77D2B6F587A00F0411E /* FLAnimatedImage */,
 			);
 			productName = checking;
 			productReference = BDCAD6342B3158BC00943700 /* checking.app */;
@@ -325,7 +316,6 @@
 				BD09309F2B681CC200CA5F96 /* termsAndCondition.swift in Sources */,
 				BD09309D2B6819C900CA5F96 /* detailsCard.swift in Sources */,
 				BD0930AD2B68BA3900CA5F96 /* newSignUp.swift in Sources */,
-				BDAE49352B49232C00FD671A /* tabBar.swift in Sources */,
 				BDAE49372B492B1E00FD671A /* homePage.swift in Sources */,
 				BD0930832B66CB8100CA5F96 /* searchBar.swift in Sources */,
 				BD0930912B66E32F00CA5F96 /* bookingCard3.swift in Sources */,
@@ -337,7 +327,6 @@
 				BDCAD6382B3158BC00943700 /* checkingApp.swift in Sources */,
 				BD4193BC2B48010100A77F50 /* PlotBooking.swift in Sources */,
 				BD09308F2B66E1B400CA5F96 /* bookingCard2.swift in Sources */,
-				BDAE49332B4892E700FD671A /* signUp.swift in Sources */,
 				BDAE30DC2B6AAE6000AFC5E1 /* pilotBookingCard.swift in Sources */,
 				BD0930992B68128300CA5F96 /* aeroImg.swift in Sources */,
 				BD788F572B76ABEC002517C5 /* writeReview.swift in Sources */,
@@ -361,8 +350,8 @@
 				BDAE493F2B4B329000FD671A /* pilotSelection.swift in Sources */,
 				BDAE493B2B49C37100FD671A /* InvitationView.swift in Sources */,
 				BD1844CD2B53E36D00702B8A /* loginOrSignUp.swift in Sources */,
-				BDAE493D2B49D59F00FD671A /* mainHomePage.swift in Sources */,
-				BDAE30DA2B690BE000AFC5E1 /* dropDown.swift in Sources */,
+				BDE5A2682B7950C60054F152 /* ratingView.swift in Sources */,
+				BDE5A26A2B7960400054F152 /* pilotReview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,14 +566,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		BD8AA77D2B6F587A00F0411E /* FLAnimatedImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BD8AA77C2B6F587A00F0411E /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
-			productName = FLAnimatedImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDCAD62C2B3158BC00943700 /* Project object */;
 }

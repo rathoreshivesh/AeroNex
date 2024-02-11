@@ -171,8 +171,8 @@ struct profile: View {
                       Spacer()
     
                       HStack{
-                          Image(systemName: "square.and.arrow.up")
-                              .rotationEffect(Angle(degrees: 90))
+                          Image("logOut")
+                              
                           Text("Sign Out of AeroNex")
                               .font(
                                 Font.custom("SF Pro", size: 17)
