@@ -92,7 +92,7 @@
 		BDAE49382B49A02E00FD671A /* jobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsView.swift; sourceTree = "<group>"; };
 		BDAE493A2B49C37100FD671A /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
 		BDAE493E2B4B329000FD671A /* pilotSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotSelection.swift; sourceTree = "<group>"; };
-		BDCAD6342B3158BC00943700 /* checking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCAD6342B3158BC00943700 /* Aeronex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aeronex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCAD6372B3158BC00943700 /* checkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkingApp.swift; sourceTree = "<group>"; };
 		BDCAD6392B3158BC00943700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDCAD63B2B3158BF00943700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 		BDCAD62B2B3158BC00943700 = {
 			isa = PBXGroup;
 			children = (
-				BDCAD6362B3158BC00943700 /* checking */,
+				BDCAD6362B3158BC00943700 /* Aeronex */,
 				BDCAD6352B3158BC00943700 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -208,12 +208,12 @@
 		BDCAD6352B3158BC00943700 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDCAD6342B3158BC00943700 /* checking.app */,
+				BDCAD6342B3158BC00943700 /* Aeronex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDCAD6362B3158BC00943700 /* checking */ = {
+		BDCAD6362B3158BC00943700 /* Aeronex */ = {
 			isa = PBXGroup;
 			children = (
 				BD402CCF2B66596E00C1FDA2 /* screens */,
@@ -224,7 +224,7 @@
 				BDCAD63B2B3158BF00943700 /* Assets.xcassets */,
 				BDCAD63D2B3158BF00943700 /* Preview Content */,
 			);
-			path = checking;
+			path = Aeronex;
 			sourceTree = "<group>";
 		};
 		BDCAD63D2B3158BF00943700 /* Preview Content */ = {
@@ -238,9 +238,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDCAD6332B3158BC00943700 /* checking */ = {
+		BDCAD6332B3158BC00943700 /* Aeronex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDCAD6422B3158BF00943700 /* Build configuration list for PBXNativeTarget "checking" */;
+			buildConfigurationList = BDCAD6422B3158BF00943700 /* Build configuration list for PBXNativeTarget "Aeronex" */;
 			buildPhases = (
 				BDCAD6302B3158BC00943700 /* Sources */,
 				BDCAD6312B3158BC00943700 /* Frameworks */,
@@ -250,11 +250,11 @@
 			);
 			dependencies = (
 			);
-			name = checking;
+			name = Aeronex;
 			packageProductDependencies = (
 			);
 			productName = checking;
-			productReference = BDCAD6342B3158BC00943700 /* checking.app */;
+			productReference = BDCAD6342B3158BC00943700 /* Aeronex.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -272,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDCAD62F2B3158BC00943700 /* Build configuration list for PBXProject "checking" */;
+			buildConfigurationList = BDCAD62F2B3158BC00943700 /* Build configuration list for PBXProject "Aeronex" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -288,7 +288,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDCAD6332B3158BC00943700 /* checking */,
+				BDCAD6332B3158BC00943700 /* Aeronex */,
 			);
 		};
 /* End PBXProject section */
@@ -484,7 +484,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"checking/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Aeronex/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -497,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.checking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.Aeronex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -512,7 +512,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"checking/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Aeronex/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -525,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.checking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.Aeronex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -536,7 +536,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDCAD62F2B3158BC00943700 /* Build configuration list for PBXProject "checking" */ = {
+		BDCAD62F2B3158BC00943700 /* Build configuration list for PBXProject "Aeronex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDCAD6402B3158BF00943700 /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDCAD6422B3158BF00943700 /* Build configuration list for PBXNativeTarget "checking" */ = {
+		BDCAD6422B3158BF00943700 /* Build configuration list for PBXNativeTarget "Aeronex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDCAD6432B3158BF00943700 /* Debug */,
