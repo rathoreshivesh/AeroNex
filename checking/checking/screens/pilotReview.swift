@@ -24,13 +24,15 @@ struct pilotReview: View {
                             
                             VStack(alignment:.leading,spacing:5){
                                 //Michael Nowak
-                                Text("Michael Nowak").font(.system(size: 16, weight: .semibold))
+                                Text("Michael Nowak")
+                                    .font(.system(size: 16, weight: .semibold))
                                 HStack(spacing:1){
                                     Image("greenStar")
                                     Image("greenStar")
                                     Image("greenStar")
                                     Image("greenStar")
                                     Image("greenStar")
+                                   
                                 }
                                 Text("Surveying Expert").font(.system(size: 13, weight: .medium))
                                     .foregroundStyle(.gray)
@@ -98,6 +100,7 @@ struct pilotReview: View {
                                 Text("Very Good").font(.system(size: 15, weight: .medium))
                                     .foregroundStyle(.gray)
                                 HStack(spacing:1){
+                                    Image("greenStar")
                                     Image("greenStar")
                                     Image("greenStar")
                                     Image("greenStar")

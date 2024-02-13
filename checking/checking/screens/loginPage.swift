@@ -29,10 +29,9 @@ struct loginPage: View {
             
             VStack(alignment: .leading){
                 Text("Email")
-                  .font(
-                    Font.custom("SF Pro", size: 16)
-                      .weight(.medium)
-                  )
+                    .font(.system(size: 16,weight:.medium))
+                      
+                  
                   .foregroundColor(.black)
                   .frame(width: 72.312, height: 18.27284, alignment: .topLeading)
                 ZStack{
@@ -57,8 +56,8 @@ struct loginPage: View {
                         
                         TextField("Enter your Email", text: $userName)
                             .font(
-                                Font.custom("SF Pro", size: 13)
-                                    .weight(.semibold)
+                                .system(size: 13,
+                                        weight:.semibold)
                             )
                             .foregroundColor(Color(red: 0.24, green: 0.24, blue: 0.26).opacity(0.6))
                             .frame(width: 260, alignment: .leading)
@@ -69,11 +68,9 @@ struct loginPage: View {
             
             VStack(alignment: .leading){
                 Text("Password")
-                  .font(
-                    Font.custom("SF Pro", size: 16)
-                      .weight(.medium)
-                  )
-                  .foregroundColor(.black)
+                  .font(.system( size: 16,weight:.medium))
+                  
+              
                   .frame(width: 72.312, height: 18.27284, alignment: .topLeading)
                 ZStack{
                     Rectangle()
@@ -97,8 +94,8 @@ struct loginPage: View {
                                 .background(Color(red: 0.87, green: 0.87, blue: 0.87))
                             SecureField("Enter your Password", text: $password)
                                 .font(
-                                    Font.custom("SF Pro", size: 13)
-                                        .weight(.semibold)
+                                    .system(size: 13,
+                                            weight:.semibold)
                                 )
                                 .foregroundColor(Color(red: 0.24, green: 0.24, blue: 0.26).opacity(0.6))
                                 .frame(width: 240, alignment: .leading)
@@ -111,7 +108,7 @@ struct loginPage: View {
                     
                 }
                 Text("Forgot password?")
-                  .font(Font.custom("SF Pro", size: 12))
+                  .font(.system(size: 12))
                   .foregroundColor(Color(red: 0.23, green: 0.83, blue: 0.65))
                   .offset(x:240)
             }.padding(.top,10)
@@ -126,11 +123,11 @@ struct loginPage: View {
                 .overlay(
                     Text("Login")
                         .font(
-                            Font.custom("SF Pro", size: 16)
-                                            .weight(.semibold)
-                                    )
+                            .system(size: 16,
+                                    weight:.semibold)
+                                    ))
                                     .foregroundColor(.white)
-                            )
+                            
             }.padding(.top)
             
             
