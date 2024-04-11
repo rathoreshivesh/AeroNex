@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>39056976069-3g28i27ufa32sro5tjrf6hkrhg1vqp5k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.39056976069-3g28i27ufa32sro5tjrf6hkrhg1vqp5k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCuwQ7iVgXUUpN_LUd7Df3SvTTNY0I0-AE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>39056976069</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.IOS.Aeronex</string>
+	<key>PROJECT_ID</key>
+	<string>aeronex-540b4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aeronex-540b4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:39056976069:ios:ebc4d6348ca8a328ea28ac</string>
+</dict>
+</plist>
